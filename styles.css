@@ -1,0 +1,108 @@
+body {
+	background-color: #293f50;
+	font: 300 16px/22px "Lato", "Open Sans light", "Helvetica Neue light", Helvetica, Arial, sans-serif;
+	color: #FFF;
+	border-top: 4px solid #648880;
+}
+
+h1 {
+	font-size: 44px;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+header p {
+	text-align: center;
+	font-size: 14px;
+	margin: .2em 0;
+} 
+
+.container {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+fieldset{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+	border: none;
+
+}
+
+
+input {
+	width: 200px;
+	height: 25px;
+	border-radius: 2px;
+	border-style: none;
+}
+
+input[type='checkbox'] {
+	width: 20px;
+}
+
+
+li button, li input[type='checkbox'], li input[type='text'] {
+	float: left;
+	margin-bottom: 5px;
+}
+
+li input[type='checkbox'] {
+	margin-right: 15px;
+}
+
+li button {
+	margin-left: 15px;
+}
+
+
+ul {
+	list-style-type: none;
+	width: 500px;
+	margin: 0 0 0 475px;
+}
+
+li:nth-of-type(1) {
+ 	margin-left: 35px; 
+ 	margin-bottom: 50px;
+
+}
+
+li {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	clear:both;
+}
+
+button {
+
+	border-radius: 2px;
+	border-style: none;
+	height: 25px;
+	margin-left: 15px
+}
+
+footer {
+	height: 40px;
+	width: 100%;
+	padding: 0px 0 10px 30px;
+	background-color: #648880;
+	position: absolute;
+	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
